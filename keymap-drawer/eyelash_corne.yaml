@@ -237,7 +237,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - End
+  - END
   - LGUI
   - {t: CHNSE2, h: toggle}
   - {t: '$$mdi:keyboard-space$$', h: Fn}
