@@ -90,7 +90,6 @@
 &kp LCTRL  &kp Z  &kp X   &kp C    &kp V  &kp B  &kp SPACE            &kp DOWN                &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH    &kp End 
                           &kp LGUI  &to 4  &lt 3 SPACE                                              &lt 3 ENTER  &to 0  &kp RALT
             >;
-
             sensor-bindings = <&rgb_encoder>;
         };
     };
