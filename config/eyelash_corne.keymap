@@ -81,9 +81,9 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&kp TAB    &kp N1  &kp N2  &kp N3    &kp N4  &kp N5                                   &bt BT_SEL 1                &kp N6           &kp N7           &kp UP           &kp N9           &kp N0    &kp BSPC
-&td0       &kp A   &kp S   &kp D     &kp F   &kp G                      &bt BT_SEL 0  &kp ESC       &bt BT_SEL 3  &kp N8           &kp LEFT         &kp DOWN         &kp RIGHT        &kp P     &kp HOME
-&kp LCTRL  &kp Z   &kp X   &kp C     &kp V   &kp B        &kp C_MUTE                  &bt BT_SEL 2                &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp SEMI  &kp END
+&kp TAB    &kp N1  &kp N2  &kp N3    &kp N4  &kp N5                                   &bt BT_SEL 1                &kp N6           &kp N7           &kp UP     &kp N9      &kp N0    &kp BSPC
+&td0       &kp A   &kp S   &kp D     &kp F   &kp G                      &bt BT_SEL 0  &kp ESC       &bt BT_SEL 3  &kp N8           &kp LEFT         &kp DOWN   &kp RIGHT   &kp P     &kp HOME
+&kp LCTRL  &kp Z   &kp X   &kp C     &kp V   &kp B        &kp C_MUTE                  &bt BT_SEL 2                &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &kp COMMA  &kp PERIOD  &kp SEMI  &kp END
                            &kp LGUI  &to 2   &lt 3 SPACE                                                          &lt 3 ENTER      &to 4            &kp RALT
             >;
 
@@ -93,10 +93,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                        &trans             &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4                 &trans  &mkp LCLK  &trans  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &kp C_MUTE            &trans             &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                                    &trans     &to 0      &kp SPACE                                           &kp RET    &trans     &trans
+&trans  &kp EXCL          &kp AT             &kp HASH       &kp DLLR          &kp PRCNT                        &trans             &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
+&trans  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LESS_THAN  &kp GREATER_THAN  &mkp MB4                 &trans  &mkp LCLK  &trans  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
+&trans  &out OUT_USB      &out OUT_BLE       &none          &none             &mkp MB5   &kp C_MUTE            &trans             &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
+                                             &trans         &to 0             &kp SPACE                                           &kp RET    &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
